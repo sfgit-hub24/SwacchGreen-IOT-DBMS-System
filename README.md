@@ -8,3 +8,10 @@ MIT App Inventor
 Android Platform
 # Objective
 To create a simple, user-friendly application that motivates users to adopt sustainable waste management practices through tracking, rewards, and awareness-driven design.
+# Features
+Allows users to record and track daily waste management activities.
+Encourages waste segregation and responsible disposal practices.
+Displays user progress to promote eco-friendly habits.
+Reward-based motivation system to increase user engagement.
+Simple and intuitive user interface suitable for all age groups.
+Supports sustainability awareness aligned with circular economy principles.
