@@ -16,7 +16,7 @@ Reward-based motivation system to increase user engagement.
 Simple and intuitive user interface suitable for all age groups.
 Supports sustainability awareness aligned with circular economy principles.
 # Screenshots
-The following screenshots showcase the user interface and core functionalities of the SwacchGreen application developed using MIT App Inventor.
+The following screenshots showcase the user interface and core functionalities of the SwacchGreen application developed using MIT App Inventor:
 ### LOGIN Screen
 ![Login Screen](assets/login_screen.jpg)
 ### INTRODUCTION Screen
@@ -27,3 +27,14 @@ The following screenshots showcase the user interface and core functionalities o
 ![Working Screen](assets/working_screen.jpg)
 ### CONVERSION Screen
 ![Conversion Screen](assets/conversion_screen.jpg)
+# Demo Video
+A working video of the application can be found here:
+[Watch Demo Video](https://your-link-here.com)  
+# Presentation / Documentation
+The project PPT explaining the concept, features, and design can be found here:  
+[SwacchGreen Presentation](docs/SwacchGreen_Presentation.pptx)
+# How to Use
+1. Import the `.aia` file into MIT App Inventor.
+2. Connect an Android device or emulator.
+3. Build and run the application.
+4. Explore features, track waste, and earn rewards.
