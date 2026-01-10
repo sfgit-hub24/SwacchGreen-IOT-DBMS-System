@@ -17,3 +17,13 @@ Simple and intuitive user interface suitable for all age groups.
 Supports sustainability awareness aligned with circular economy principles.
 # Screenshots
 The following screenshots showcase the user interface and core functionalities of the SwacchGreen application developed using MIT App Inventor.
+- LOGIN Screen
+assets/login_screen.jpg
+- INTRODUCTION Screen
+assets/introduction_screen.jpg
+- DESCRIPTION Screen
+assets/description_screen.jpg
+- WORKING Screen
+assets/working_screen.jpg
+- CONVERSION Screen
+assets/conversion.jpg
