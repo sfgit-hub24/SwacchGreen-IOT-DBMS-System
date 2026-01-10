@@ -29,7 +29,7 @@ The following screenshots showcase the user interface and core functionalities o
 ![Conversion Screen](assets/conversion_screen.jpg)
 # Demo Video
 A working video of the application can be found here:
-[Watch Demo Video](assets/SwacchGreen_Demo.mp4)  
+[Watch Demo Video](https://drive.google.com/file/d/1roRtgjWz2IN_Wjgj8Rpk6AMDvpkDSAL2/view?usp=drivesdk)  
 # Presentation / Documentation
 The project PPT explaining the concept, features, and design can be found here:  
 [SwacchGreen Presentation](docs/SwacchGreen_Presentation.pptx)
