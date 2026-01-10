@@ -15,3 +15,5 @@ Displays user progress to promote eco-friendly habits.
 Reward-based motivation system to increase user engagement.
 Simple and intuitive user interface suitable for all age groups.
 Supports sustainability awareness aligned with circular economy principles.
+# Screenshots
+The following screenshots showcase the user interface and core functionalities of the SwacchGreen application developed using MIT App Inventor.
