@@ -29,7 +29,7 @@ The following screenshots showcase the user interface and core functionalities o
 ![Conversion Screen](assets/conversion_screen.jpg)
 # Demo Video
 A working video of the application can be found here:
-[Watch Demo Video](https://your-link-here.com)  
+[Watch Demo Video](assets/SwacchGreen_Demo.mp4)  
 # Presentation / Documentation
 The project PPT explaining the concept, features, and design can be found here:  
 [SwacchGreen Presentation](docs/SwacchGreen_Presentation.pptx)
