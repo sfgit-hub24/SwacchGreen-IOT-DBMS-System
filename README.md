@@ -32,7 +32,7 @@ A working video of the application can be found here:
 [Watch Demo Video](https://drive.google.com/file/d/1roRtgjWz2IN_Wjgj8Rpk6AMDvpkDSAL2/view?usp=drivesdk)  
 # Presentation / Documentation
 The project PPT explaining the concept, features, and design can be found here:  
-[SwacchGreen Presentation](docs/SwacchGreen_Presentation.pptx)
+[SwacchGreen Presentation](docs/SwacchGreen_Presentation.pdf)
 # How to Use
 1. Import the `.aia` file into MIT App Inventor.
 2. Connect an Android device or emulator.
