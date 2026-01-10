@@ -26,4 +26,4 @@ The following screenshots showcase the user interface and core functionalities o
 ### WORKING Screen
 ![Working Screen](assets/working_screen.jpg)
 ### CONVERSION Screen
-![Conversion Screen](assets/conversion.jpg)
+![Conversion Screen](assets/conversion_screen.jpg)
