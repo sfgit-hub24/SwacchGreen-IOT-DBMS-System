@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Report Waste</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">🌱 SwacchGreen</div>
+
+    <ul class="nav-links">
+        <li><a href="/">🏠 Home</a></li>
+        <li><a href="/login">🔐 Login</a></li>
+        <li><a href="/register">📝 Register</a></li>
+        <li><a href="/dashboard">📊 Dashboard</a></li>
+        <li><a href="/smartbins">🗑 Smart Bins</a></li>
+        <li><a href="/admin">⚙ Admin</a></li>
+    </ul>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>📢 Report Waste</h1>
+    <p>Help keep your city clean</p>
+</div>
+
+<!-- FORM -->
+<div class="form-box">
+
+    <h2>Submit Complaint 🧹</h2>
+
+    <form method="POST">
+
+        <input type="text" name="location" placeholder="📍 Enter Location" required>
+
+        <textarea name="description" placeholder="📝 Describe the issue" required></textarea>
+
+        <button class="btn" type="submit">Submit Report</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

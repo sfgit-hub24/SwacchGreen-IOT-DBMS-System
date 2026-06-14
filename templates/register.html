@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">🌱 SwacchGreen</div>
+
+    <ul class="nav-links">
+        <li><a href="/">🏠 Home</a></li>
+        <li><a href="/login">🔐 Login</a></li>
+        <li><a href="/dashboard">📊 Dashboard</a></li>
+        <li><a href="/report">📢 Report</a></li>
+        <li><a href="/smartbins">🗑 Smart Bins</a></li>
+        <li><a href="/admin">⚙ Admin</a></li>
+    </ul>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>📝 Register</h1>
+    <p>Create your SwacchGreen account</p>
+</div>
+
+<!-- REGISTER FORM -->
+<div class="form-box">
+
+    <h2>Create Account 🌱</h2>
+
+    <form method="POST">
+
+        <input type="text" name="name" placeholder="👤 Full Name" required>
+
+        <input type="email" name="email" placeholder="📧 Email Address" required>
+
+        <input type="password" name="password" placeholder="🔑 Password" required>
+
+        <button class="btn" type="submit">Register</button>
+
+    </form>
+
+    <p style="margin-top:10px;">
+        Already have an account?
+        <a href="/login" style="color:#2e7d32; font-weight:bold;">Login here</a>
+    </p>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SwacchGreen</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">🌱 SwacchGreen</div>
+
+    <ul class="nav-links">
+        <li><a href="/">🏠 Home</a></li>
+        <li><a href="/login">🔐 Login</a></li>
+        <li><a href="/register">📝 Register</a></li>
+        <li><a href="/dashboard">📊 Dashboard</a></li>
+        <li><a href="/report">📢 Report</a></li>
+        <li><a href="/smartbins">🗑 Smart Bins</a></li>
+        <li><a href="/admin">⚙ Admin</a></li>
+    </ul>
+</div>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <h1>🌱 SwacchGreen</h1>
+    <p>Smart Waste Management System using IoT + DBMS</p>
+</div>
+
+<!-- FEATURE CARDS -->
+<div class="grid">
+
+    <div class="card">
+        <h2>📢 Report Waste</h2>
+        <p>Raise complaints about waste issues</p>
+        <a href="/report"><button class="btn">Open</button></a>
+    </div>
+
+    <div class="card">
+        <h2>🗑 Smart Bins</h2>
+        <p>Monitor bin fill levels</p>
+        <a href="/smartbins"><button class="btn">View</button></a>
+    </div>
+
+    <div class="card">
+        <h2>📊 Dashboard</h2>
+        <p>View system statistics</p>
+        <a href="/dashboard"><button class="btn">Go</button></a>
+    </div>
+
+    <div class="card">
+        <h2>⚙ Admin Panel</h2>
+        <p>Manage users and complaints</p>
+        <a href="/admin"><button class="btn">Access</button></a>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="hero">
+    <p>🌍 Clean City • Smart Future • SwacchGreen</p>
+</div>
+
+</body>
+</html>

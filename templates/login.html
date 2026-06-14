@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">🌱 SwacchGreen</div>
+
+    <ul class="nav-links">
+        <li><a href="/">🏠 Home</a></li>
+        <li><a href="/register">📝 Register</a></li>
+        <li><a href="/dashboard">📊 Dashboard</a></li>
+        <li><a href="/report">📢 Report</a></li>
+        <li><a href="/smartbins">🗑 Smart Bins</a></li>
+        <li><a href="/admin">⚙ Admin</a></li>
+    </ul>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>🔐 Login</h1>
+    <p>Access SwacchGreen System</p>
+</div>
+
+<!-- LOGIN FORM -->
+<div class="form-box">
+
+    <h2>Welcome Back 👋</h2>
+
+    <form method="POST">
+
+        <input name="email" type="email" placeholder="📧 Enter Email" required>
+
+        <input name="password" type="password" placeholder="🔑 Enter Password" required>
+
+        <button class="btn" type="submit">Login</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

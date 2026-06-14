@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">🌱 SwacchGreen</div>
+
+    <ul class="nav-links">
+        <li><a href="/">🏠 Home</a></li>
+        <li><a href="/login">🔐 Login</a></li>
+        <li><a href="/register">📝 Register</a></li>
+        <li><a href="/report">📢 Report</a></li>
+        <li><a href="/smartbins">🗑 Smart Bins</a></li>
+        <li><a href="/admin">⚙ Admin</a></li>
+    </ul>
+</div>
+
+<!-- HEADER -->
+<div class="hero">
+    <h1>📊 Dashboard</h1>
+    <p>Smart Waste Management Overview</p>
+</div>
+
+<!-- STATS GRID -->
+<div class="grid">
+
+    <div class="card">
+        <h2>👥 Users</h2>
+        <h1>{{ users }}</h1>
+    </div>
+
+    <div class="card">
+        <h2>📢 Complaints</h2>
+        <h1>{{ complaints }}</h1>
+    </div>
+
+    <div class="card">
+        <h2>🗑 Smart Bins</h2>
+        <h1>{{ bins }}</h1>
+    </div>
+
+</div>
+
+<!-- QUICK ACTIONS -->
+<div class="hero">
+    <h2>⚡ Quick Actions</h2>
+</div>
+
+<div class="grid">
+
+    <div class="card">
+        <h2>📢 Report Waste</h2>
+        <a href="/report"><button class="btn">Open</button></a>
+    </div>
+
+    <div class="card">
+        <h2>🗑 Check Bins</h2>
+        <a href="/smartbins"><button class="btn">Open</button></a>
+    </div>
+
+    <div class="card">
+        <h2>⚙ Admin Panel</h2>
+        <a href="/admin"><button class="btn">Open</button></a>
+    </div>
+
+</div>
+
+</body>
+</html>

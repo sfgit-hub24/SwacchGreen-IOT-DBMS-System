@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<div class="navbar">
+    <div class="logo">⚙️ Admin Panel</div>
+
+```
+<ul class="nav-links">
+    <li><a href="/">🏠 Home</a></li>
+    <li><a href="/dashboard">📊 Dashboard</a></li>
+    <li><a href="/report">📢 Report</a></li>
+    <li><a href="/smartbins">🗑 Smart Bins</a></li>
+</ul>
+```
+
+</div>
+
+<!-- HERO -->
+
+<div class="hero">
+    <h1>🛠 Admin Dashboard</h1>
+    <p>Monitor Users and Waste Complaints</p>
+</div>
+
+<!-- STATISTICS CARDS -->
+
+<div class="grid">
+
+```
+<div class="card">
+    <h2>👥 Total Users</h2>
+    <h1>{{ users }}</h1>
+    <p>Registered Users</p>
+</div>
+
+<div class="card">
+    <h2>📢 Total Complaints</h2>
+    <h1>{{ complaints }}</h1>
+    <p>Waste Reports Submitted</p>
+</div>
+```
+
+</div>
+
+<!-- SYSTEM STATUS -->
+
+<div class="hero">
+    <h2>📡 System Status</h2>
+    <p>SwacchGreen Waste Management System Running Successfully ✅</p>
+</div>
+
+</body>
+</html>

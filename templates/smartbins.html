@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Bins</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">🌱 SwacchGreen</div>
+
+    <ul class="nav-links">
+        <li><a href="/">🏠 Home</a></li>
+        <li><a href="/dashboard">📊 Dashboard</a></li>
+        <li><a href="/report">📢 Report</a></li>
+        <li><a href="/admin">⚙ Admin</a></li>
+    </ul>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>🗑 Smart Bin Monitoring</h1>
+    <p>Real-time IoT waste level tracking system</p>
+</div>
+
+<!-- CARDS -->
+<div class="grid">
+
+    <div class="card">
+        <h2>🟢 Bin A</h2>
+        <h1 style="color:green;">35%</h1>
+        <p>Status: Safe</p>
+    </div>
+
+    <div class="card">
+        <h2>🟡 Bin B</h2>
+        <h1 style="color:orange;">75%</h1>
+        <p>Status: Moderate</p>
+    </div>
+
+    <div class="card">
+        <h2>🔴 Bin C</h2>
+        <h1 style="color:red;">95%</h1>
+        <p>Status: Critical 🚨</p>
+    </div>
+
+</div>
+
+<!-- ALERT SECTION -->
+<div class="hero">
+    <h2>📡 System Status</h2>
+    <p>Data updates simulated from IoT sensors</p>
+</div>
+
+</body>
+</html>

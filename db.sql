@@ -1,0 +1,20 @@
+CREATE DATABASE swacchgreen;
+USE swacchgreen;
+SHOW TABLES;
+CREATE TABLE Users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100),
+    Email VARCHAR(100) UNIQUE,
+    Password VARCHAR(100)
+);
+CREATE TABLE Complaints (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Location VARCHAR(255),
+    Description TEXT,
+    Status VARCHAR(50)
+);
+CREATE TABLE SmartBins (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    BinName VARCHAR(100),
+    FillLevel INT DEFAULT 0
+);
