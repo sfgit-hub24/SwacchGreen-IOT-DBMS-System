@@ -1,40 +1,226 @@
-## SwacchGreen – Sustainable Waste Management App
-SwacchGreen is a mobile application developed using MIT App Inventor under the domain of Sustainability and Circular Economy. The app focuses on promoting responsible waste management by enabling users to track waste disposal activities, monitor eco-friendly habits, and earn rewards for sustainable actions.
-By turning everyday waste management into a rewarding and trackable experience, SwacchGreen encourages long-term eco-conscious behavior at both individual and community levels, aligning with modern principles of sustainable product design and environmental responsibility.
-# Domain
-Sustainability: Circular Economy Solutions, Waste Reduction Strategies, Sustainable Product Design
-# Technology Used
-MIT App Inventor
-Android Platform
-# Objective
-To create a simple, user-friendly application that motivates users to adopt sustainable waste management practices through tracking, rewards, and awareness-driven design.
-# Features
-Allows users to record and track daily waste management activities.
-Encourages waste segregation and responsible disposal practices.
-Displays user progress to promote eco-friendly habits.
-Reward-based motivation system to increase user engagement.
-Simple and intuitive user interface suitable for all age groups.
-Supports sustainability awareness aligned with circular economy principles.
-# Screenshots
-The following screenshots showcase the user interface and core functionalities of the SwacchGreen application developed using MIT App Inventor:
-### LOGIN Screen
-![Login Screen](assets/login_screen.jpg)
-### INTRODUCTION Screen
-![Introduction Screen](assets/introduction_screen.jpg)
-### DESCRIPTION Screen
-![Description Screen](assets/description_screen.jpg)
-### WORKING Screen
-![Working Screen](assets/working_screen.jpg)
-### CONVERSION Screen
-![Conversion Screen](assets/conversion_screen.jpg)
-# Demo Video
-A working video of the application can be found here:
-[Watch Demo Video](https://drive.google.com/file/d/1roRtgjWz2IN_Wjgj8Rpk6AMDvpkDSAL2/view?usp=drivesdk)  
-# Presentation / Documentation
-The project PPT explaining the concept, features, and design can be found here:  
-[SwacchGreen Presentation](docs/SwacchGreen_PPT.pdf)
-# How to Use
-1. Import the `.aia` file into MIT App Inventor.
-2. Connect an Android device or emulator.
-3. Build and run the application.
-4. Explore features, track waste, and earn rewards.
+# SwacchGreen-IOT-DBMS-System
+---
+# 🌱 SwacchGreen
+
+## Smart Waste Management System using Flask, MySQL, and IoT
+
+SwacchGreen is an intelligent waste management platform designed to promote cleaner communities through citizen participation, real-time waste reporting, and IoT-enabled smart bin monitoring.
+
+The system allows users to report waste issues, monitor smart bins, earn rewards for environmental contributions, and enables administrators to efficiently manage complaints and waste collection operations.
+
+---
+
+##  Features
+
+###  User Features
+
+* User Registration
+* User Login
+* Waste Issue Reporting
+* Dashboard Overview
+* Smart Bin Monitoring
+* Reward Tracking
+
+###  Admin Features
+
+* Admin Dashboard
+* Complaint Management
+* User Monitoring
+* Smart Bin Status Monitoring
+* Waste Collection Tracking
+
+###  IoT Features
+
+* Real-time Bin Fill Level Monitoring
+* Overflow Detection
+* Collection Alerts
+* Smart Waste Analytics
+
+---
+
+##  Technology Stack
+
+### Frontend
+
+* HTML5
+* CSS3
+* Jinja2 Templates
+
+### Backend
+
+* Python
+* Flask
+
+### Database
+
+* MySQL
+
+### IoT Hardware
+
+* ESP32 / Arduino
+* Ultrasonic Sensor
+* WiFi Module
+
+### Tools
+
+* VS Code
+* Git
+* GitHub
+
+---
+
+##  Project Structure
+
+```text
+SwacchGreen/
+│
+├── app.py
+│
+├── static/
+│   └── style.css
+│
+├── templates/
+│   ├── index.html
+│   ├── register.html
+│   ├── login.html
+│   ├── dashboard.html
+│   ├── report.html
+│   ├── bins.html
+│   └── admin.html
+│
+└── README.md
+```
+
+---
+
+##  Database Tables
+
+### Users
+  _ _ _ _ _ _ _ _ _ _
+| Field    | Type    |
+| -------- | ------- |
+| UserID   | INT     |
+| Name     | VARCHAR |
+| Email    | VARCHAR |
+| Password | VARCHAR |
+  _ _ _ _ _ _ _ _ _ _
+
+### Complaints
+ _ _ _ _ _ _ _ _ _ _ _ _
+| Field       | Type    |
+| ----------- | ------- |
+| ComplaintID | INT     |
+| Location    | VARCHAR |
+| Description | TEXT    |
+| Status      | VARCHAR |
+ _ _ _ _ _ _ _ _ _ _ _ _
+
+### SmartBins
+  _ _ _ _ _ _ _ _ _ _ 
+| Field     | Type    |
+| --------- | ------- |
+| BinID     | INT     |
+| BinName   | VARCHAR |
+| FillLevel | INT     |
+| Status    | VARCHAR |
+ _ _ _ _ _ _ _ _ _ _ _
+
+### Rewards
+ _ _ _ _ _ _ _ _ _ 
+| Field    | Type |
+| -------- | ---- |
+| RewardID | INT  |
+| UserID   | INT  |
+| Points   | INT  |
+ _ _ _ _ _ _ _ _ _ 
+
+---
+
+##  Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/sfgithub-24/SwacchGreen-IOT-DBMS-System.git
+```
+
+### Move into Project
+
+```bash
+cd SwacchGreen
+```
+
+### Install Dependencies
+
+```bash
+pip install flask
+pip install mysql-connector-python
+```
+
+### Run Application
+
+```bash
+python app.py
+```
+
+Application runs on:
+
+```text
+http://127.0.0.1:5000
+```
+
+---
+
+##  System Modules
+
+### Home Page
+
+Modern landing page introducing SwacchGreen.
+
+### Dashboard
+
+Displays:
+
+* Users
+* Complaints
+* Rewards
+* Smart Bins
+
+### Report Module
+
+Allows citizens to submit waste complaints.
+
+### Smart Bin Monitoring
+
+Displays IoT bin fill levels.
+
+### Admin Dashboard
+
+Provides complaint management and system overview.
+
+---
+
+## 🔮 Future Enhancements
+
+* AI-based Waste Classification
+* Image Upload for Complaints
+* GPS-based Complaint Mapping
+* Real-Time IoT Integration
+* Mobile Application
+* Route Optimization for Waste Collection Vehicles
+
+---
+
+## 👩‍💻 Developed By
+
+**Safa Fatima**
+**Sumaiyah Sajid**
+
+B.Tech Computer Science Engineering
+
+
+---
+
+##  License
+
+This project is developed for educational, research, and smart city innovation purposes.
