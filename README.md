@@ -201,7 +201,7 @@ Provides complaint management and system overview.
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 * AI-based Waste Classification
 * Image Upload for Complaints
@@ -212,7 +212,7 @@ Provides complaint management and system overview.
 
 ---
 
-## 👩‍💻 Developed By
+##  Developed By
 
 **Safa Fatima**
 **Sumaiyah Sajid**
