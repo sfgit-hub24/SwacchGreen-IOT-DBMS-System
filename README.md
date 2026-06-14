@@ -144,10 +144,10 @@ SwacchGreen/
 git clone https://github.com/sfgithub-24/SwacchGreen-IOT-DBMS-System.git
 ```
 
-### Move into Project
+### Move into Project Directory
 
 ```bash
-cd SwacchGreen
+cd SwacchGreen-IOT-DBMS-System
 ```
 
 ### Install Dependencies
@@ -163,11 +163,12 @@ pip install mysql-connector-python
 python app.py
 ```
 
-Application runs on:
+### Application URL
 
 ```text
 http://127.0.0.1:5000
 ```
+
 
 ---
 
